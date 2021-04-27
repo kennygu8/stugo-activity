@@ -1,2 +1,2 @@
-# stugo-activity
-Student Government activity led by senior class
+# connect-the-dots
+leadership activity for leadership class!
