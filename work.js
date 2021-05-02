@@ -28,9 +28,9 @@ function processData(allText) {
 
 function createForm(lines) {
     // creates long list of options stored in options var
-    print(lines[0]["person1"])
-    print(lines[0]["person2"])
-    print(lines[0]["connection"])
+    console.log(lines[0]["person1"])
+    console.log(lines[0]["person2"])
+    console.log(lines[0]["connection"])
     var options;
     for (i=0; i < lines.length; i++) {
         // gets e.g. <option>connection</option>
