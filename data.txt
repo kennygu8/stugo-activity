@@ -1,3 +1,4 @@
+person1,person2,connection
 Kenny,Ahimsa,President
 Ahimsa,Sarayu,BOD
 Sarayu,Alex,Junior class off
