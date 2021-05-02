@@ -33,7 +33,7 @@ function createForm(lines) {
     for (i=0; i < lines.length; i++) {
         // gets e.g. <option>connection</option>
         var option = "<option>";
-        option += lines[i]["connection"];
+        option += lines[i][2];
         option += "</option>";
         // appends to options
         options += option;
@@ -46,7 +46,7 @@ function createForm(lines) {
         // <div class="form-group"><label for="exampleFormControlSelect0">
         text += i.toString() + '">';
         // <div class="form-group"><label for="exampleFormControlSelect0">Example and Example
-        text += lines[i]["person1"] + " and " + lines[i]["person2"];
+        text += lines[i][0] + " and " + lines[i][1];
         // <div class="form-group"><label for="exampleFormControlSelect0">Example and Example</label>
         text += "</label>";
         // select portion
