@@ -23,7 +23,7 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-    alert(lines);
+    createForm(lines);
 }
 
 function createForm(lines) {
