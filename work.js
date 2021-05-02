@@ -23,14 +23,12 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
+    console.log(lines);
     createForm(lines);
 }
 
 function createForm(lines) {
     // creates long list of options stored in options var
-    console.log(lines[0]["person1"]);
-    console.log(lines[0]["person2"]);
-    console.log(lines[0]["connection"]);
     var options;
     for (i=0; i < lines.length; i++) {
         // gets e.g. <option>connection</option>
